@@ -1,0 +1,27 @@
+{
+	"name" : "pluf/starter",
+	"description" : "A minimum configuration",
+	"type" : "pluf-site",
+	"homepage" : "https://github.com/pluf/starter",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Mostafa Barmshory",
+			"email" : "mostafa.barmshory@dpq.co.ir",
+			"homepage" : "http://dpq.co.ir"
+		}
+	],
+	"support" : {
+		"source" : "https://github.com/pluf/starter",
+		"wiki" : "https://github.com/pluf/starter",
+		"forum" : "https://github.com/pluf/starter",
+		"issues" : "https://github.com/pluf/starter"
+	},
+	"require" : {
+		"pluf/core" : "^3.0.0"
+	},
+	"keywords" : [
+		"pluf",
+		"starter",
+		"site"
+	]
+}

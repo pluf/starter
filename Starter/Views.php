@@ -1,5 +1,4 @@
 <?php
-Pluf::loadFunction('Pluf_Shortcuts_GetObjectOr404');
 
 /**
  * Starter main views
@@ -21,5 +20,21 @@ class Starter_Views
         return array(
             'message' => 'hi'
         );
+    }
+
+    public function by($request, $match)
+    {
+        $result = array();
+        $result['title'] = 'Sample result';
+        $result['message'] = 'By';
+        
+        return $result;
+    }
+    
+    public function echo($request, $match)
+    {
+        $result = array();
+        $result['message'] = $match['message'];
+        return $result;
     }
 }

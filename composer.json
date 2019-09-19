@@ -17,7 +17,20 @@
 		"issues" : "https://github.com/pluf/starter"
 	},
 	"require" : {
-		"pluf/core" : "^3.0.0"
+		"pluf/core" : "5.11.x",
+		"php-amqplib/php-amqplib" : ">=2.6.1"
+	},
+	"require-dev" : {
+		"pluf/test" : "5.11.x"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Pluf\\Starter\\" : ""
+		},
+		"exclude-from-classmap" : [
+			"/tests/",
+			"/vendor/"
+		]
 	},
 	"keywords" : [
 		"pluf",
